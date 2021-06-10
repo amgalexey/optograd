@@ -16,6 +16,7 @@ export const Categories = () => {
     })
 
     return (
+      <div className="category">
         <ul>
         {ctg.map(({ slug,title }) => (
           <li>
@@ -23,5 +24,7 @@ export const Categories = () => {
           </li>
         ))}
       </ul>
+      </div>
+        
     )
 }
